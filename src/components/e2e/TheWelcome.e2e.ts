@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test('event @update:model-value', async ({ page }) => {
   // set pre-defined date  
-  await page.clock.install({ time: new Date('2024-02-02T08:00:00') });
+  await page.clock.install({ time: new Date('2024-12-02T08:00:00') });
 
   await page.goto('https://showcase-datepicker.vercel.app/');
 
